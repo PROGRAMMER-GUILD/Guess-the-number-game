@@ -1,0 +1,126 @@
+ 
+.subcontainer {
+    background-image: url('C:\Users\hp\Desktop\Guess Number Game\guessgame_bg.jpg');
+    background-repeat: no-repeat;
+    margin-left: 500px;
+    text-align: center;
+    border: 2px solid skyblue;
+    height: 500px;
+    width: 500px;
+    box-shadow: 2px 3px 8px green;
+    opacity: 10px;
+    border-radius: 10px;
+    border-style:dotted;
+    
+}
+.subcontainer h1{
+    display: inline-block;
+    font-size: 25px;
+    padding-top:2px;
+    color:rgb(33, 163, 193)
+    
+    
+}
+.subcontainer h1:hover{
+    color: cyan;
+    font-size: 50px;
+    border:2px salmon;
+    border-radius: 10px;
+    border-style: inset;
+    box-shadow: 2px 2px 2px lightpink;
+    transform:scale(2);
+       
+}
+ .content {
+    position: absolute;
+    display: block;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    color:chocolate;
+    font-size: 20px;
+}
+ .content input{
+    display:inline-block;
+    position: relative;
+    height: 30px;
+    width: 50vh;
+    margin-left: 20px;
+    border:2px solid red;
+    border-radius: 10px;
+    color: blue;
+    color:crimson;
+    
+}
+ .content2 {
+    margin-top: 100px;
+    position: absolute;
+}
+ .content2 label{
+    font-size: 20px;
+    color:brown;
+    margin-left: 10px;
+}
+ .content2 input{
+    margin-left: 20px;
+    height: 5vh;
+    width: 40vh;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+#score {
+    display: flex;
+    position: absolute;
+    margin-top:250px;
+    margin-left: 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    color: red;
+    background-color: aquamarine;
+    
+}
+#score:hover{
+    font-size: 25px;
+    background-color:aliceblue;
+}
+#guesses{
+    position:absolute;
+    margin-top: 250px;
+    margin-left: 300px;
+    display: flex;
+    padding:10px 10px 10px 10px;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    
+}
+#guesses:hover{
+    color: red;
+    font-size: 25px;
+    background-color: aqua;
+   
+    
+}
+#first{
+    width:200px;
+}
+#mybutton{
+    margin-left:10px;
+    padding:10px 10px 10px 10px;
+    border-radius:10px;
+}
+#mybutton:hover{
+    color:blue;
+    background-color:beige;
+}
+#message{
+    color:red;
+    font-size:15px;
+    margin-top:0px;
+}
+#second{
+    width:200px;
+}
+#myguess{
+    padding:10px 10px 10px 10px;
+    border-radius:10px;
+}
